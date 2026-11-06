@@ -1,0 +1,12 @@
+BROWSER PRODUCTIVITY BOOKMARKLETS
+
+To install by hand: create a new bookmark, paste the javascript: code as the URL, and give it the name shown.
+
+--- Copy as Markdown ---
+javascript:(function(){var t=document.title.trim(),u=location.href,s=window.getSelection?window.getSelection().toString().trim():'',o='['+t+']('+u+')';if(s){o+='\n\n'+s.split('\n').map(function(l){return'> '+l;}).join('\n');}function c(x){if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(x);}else{var a=document.createElement('textarea');a.value=x;document.body.appendChild(a);a.select();try{document.execCommand('copy');}catch(e){}document.body.removeChild(a);}}c(o);})();
+
+--- Text Counter ---
+javascript:(function(){var s=window.getSelection?window.getSelection().toString().trim():'';if(!s){s=document.body.innerText;}var w=s.split(/\s+/).filter(Boolean).length,c=s.length;var d=document.createElement('div');d.textContent='Words: '+w+'  |  Characters: '+c;d.style.cssText='position:fixed;top:16px;right:16px;background:#16324F;color:#fff;padding:12px 16px;border-radius:8px;z-index:99999;font:14px sans-serif;box-shadow:0 2px 12px rgba(0,0,0,.3)';document.body.appendChild(d);setTimeout(function(){d.remove();},5000);})();
+
+--- Clean Tab Title ---
+javascript:(function(){if(document.title.indexOf(' [cleaned]')>-1){document.title=document.title.replace(' [cleaned]','');}else{var t=document.title;var cut=t.search(/ [-|—] /);if(cut>-1){t=t.slice(0,cut);}document.title=t+' [cleaned]';}})();

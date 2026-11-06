@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Browser Productivity Bookmarklets</title>
+<style>
+  body { font-family: sans-serif; max-width: 640px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #1a1a1a; }
+  a.bm { display: inline-block; background: #16324F; color: #fff; padding: 10px 18px; border-radius: 6px; text-decoration: none; margin: 6px 0; }
+  code { background: #f0f0f0; padding: 2px 5px; border-radius: 3px; }
+  h1 { color: #16324F; }
+</style>
+</head>
+<body>
+<h1>Browser Productivity Bookmarklets</h1>
+<p>Drag a button below to your bookmarks bar. Click it on any page to run it.
+No data leaves your browser — these run entirely on the page you are viewing.</p>
+
+<h2>1. Copy page as Markdown</h2>
+<p>Copies the page title and URL as a Markdown link, plus any text you have selected as a quote.</p>
+<a class="bm" href="javascript:(function(){var t=document.title.trim(),u=location.href,s=window.getSelection?window.getSelection().toString().trim():'',o='['+t+']('+u+')';if(s){o+='\n\n'+s.split('\n').map(function(l){return'> '+l;}).join('\n');}function c(x){if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(x);}else{var a=document.createElement('textarea');a.value=x;document.body.appendChild(a);a.select();try{document.execCommand('copy');}catch(e){}document.body.removeChild(a);}}c(o);})();">Copy as Markdown</a>
+
+<h2>2. Text counter</h2>
+<p>Counts the words and characters of your selected text — or of the whole page if nothing is selected — and shows the result in a small box.</p>
+<a class="bm" href="javascript:(function(){var s=window.getSelection?window.getSelection().toString().trim():'';if(!s){s=document.body.innerText;}var w=s.split(/\s+/).filter(Boolean).length,c=s.length;var d=document.createElement('div');d.textContent='Words: '+w+'  |  Characters: '+c;d.style.cssText='position:fixed;top:16px;right:16px;background:#16324F;color:#fff;padding:12px 16px;border-radius:8px;z-index:99999;font:14px sans-serif;box-shadow:0 2px 12px rgba(0,0,0,.3)';document.body.appendChild(d);setTimeout(function(){d.remove();},5000);})();">Text Counter</a>
+
+<h2>3. Tab title cleaner</h2>
+<p>Strips the site name from the tab title (everything after " - ", " | ", or " — "), so tabs show the page name first. Run it again to restore the original title.</p>
+<a class="bm" href="javascript:(function(){if(document.title.indexOf(' [cleaned]')>-1){document.title=document.title.replace(' [cleaned]','');}else{var t=document.title;var cut=t.search(/ [-|—] /);if(cut>-1){t=t.slice(0,cut);}document.title=t+' [cleaned]';}})();">Clean Tab Title</a>
+
+<h2>How to install</h2>
+<ol>
+  <li>Show your bookmarks bar (Ctrl+Shift+B in Chrome/Edge, Ctrl+Shift+B in Firefox).</li>
+  <li>Drag a button above onto the bar.</li>
+  <li>Click the bookmark on any page to run it.</li>
+</ol>
+<p>The same three bookmarklets are also in <code>bookmarklets.txt</code> as plain text, for pasting into a bookmark by hand.</p>
+</body>
+</html>
