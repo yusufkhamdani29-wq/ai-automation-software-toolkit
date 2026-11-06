@@ -1,0 +1,94 @@
+{
+  "name": "Business OS",
+  "lists": [
+    {
+      "name": "Inbox",
+      "cards": [
+        {
+          "title": "Reply to Citra about menu photos",
+          "labels": [
+            "Admin"
+          ],
+          "due": "2026-11-07",
+          "notes": "Email waiting since Tuesday"
+        },
+        {
+          "title": "Quote for Dewi seasonal campaign",
+          "labels": [
+            "Sales"
+          ],
+          "due": "2026-11-09",
+          "notes": "Needs price + timeline"
+        }
+      ]
+    },
+    {
+      "name": "This Week",
+      "cards": [
+        {
+          "title": "Edit product photos",
+          "labels": [
+            "Production"
+          ],
+          "due": "2026-11-06",
+          "notes": "20 photos"
+        },
+        {
+          "title": "Write product descriptions",
+          "labels": [
+            "Marketing"
+          ],
+          "due": "2026-11-06",
+          "notes": "20 photos"
+        }
+      ]
+    },
+    {
+      "name": "Doing",
+      "cards": [
+        {
+          "title": "Update price list",
+          "labels": [
+            "Admin"
+          ],
+          "due": "2026-11-07",
+          "notes": "Check Gumroad fees first"
+        }
+      ]
+    },
+    {
+      "name": "Waiting",
+      "cards": [
+        {
+          "title": "Invoice INV-2026-003 payment",
+          "labels": [
+            "Finance"
+          ],
+          "due": "2026-11-21",
+          "notes": "Citra Bakery $6.50"
+        }
+      ]
+    },
+    {
+      "name": "Done",
+      "cards": [
+        {
+          "title": "Send invoice INV-2026-001",
+          "labels": [
+            "Finance"
+          ],
+          "due": "2026-11-06",
+          "notes": "Paid"
+        },
+        {
+          "title": "Reply to customer emails",
+          "labels": [
+            "Admin"
+          ],
+          "due": "2026-11-06",
+          "notes": "Inbox zero"
+        }
+      ]
+    }
+  ]
+}
