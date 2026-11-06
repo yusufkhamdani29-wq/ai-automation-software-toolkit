@@ -1,0 +1,6 @@
+invoice_number,date,client_name,client_email,description,quantity,unit_price,currency
+INV-2026-001,2026-11-06,Acme Cafe,hello@acme.example,Thumbnail kit (30 bases),1,5.00,USD
+INV-2026-001,2026-11-06,Acme Cafe,hello@acme.example,Extra social templates,2,3.00,USD
+INV-2026-002,2026-11-07,Budi Studio,studio@budi.example,Logo design package,1,49.00,USD
+INV-2026-003,2026-11-07,Citra Bakery,citra@bakery.example,Menu photo pack,1,2.00,USD
+INV-2026-003,2026-11-07,Citra Bakery,citra@bakery.example,Print setup fee,1,4.50,USD
