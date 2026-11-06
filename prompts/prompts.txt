@@ -1,0 +1,186 @@
+================================================================================
+AI AUTOMATION & SOFTWARE TOOLKIT — PLAIN-TEXT PROMPT PACK (prompts.txt)
+================================================================================
+Instructions: Copy the text between the [START PROMPT] and [END PROMPT] markers,
+replace the bracketed [PLACEHOLDERS] with your information, and paste into
+ChatGPT, Claude, or your preferred AI assistant.
+================================================================================
+
+--------------------------------------------------------------------------------
+01. CONTENT REPURPOSING (LONG-FORM TO MULTI-CHANNEL)
+--------------------------------------------------------------------------------
+[START PROMPT]
+You are an expert content editor for a small business. I am going to give you a long-form piece of content below. Your job is to repurpose it into three distinct formats without using generic AI buzzwords (avoid words like "delve," "tapestry," "unlock," "game-changer," "skyrocket," or "thrilled"). Keep the tone direct, practical, and conversational.
+
+Please generate:
+1. A LinkedIn post (150–220 words): Start with a clear, specific observation from the text. Use short paragraphs, include 3–5 bullet points of actionable takeaways, and end with a straightforward question for professionals in my field.
+2. A 5-part short-form thread (for X/Threads): Each post must be under 260 characters. Post 1 states the core problem; Posts 2–4 explain the steps or lessons; Post 5 summarizes the main takeaway in one sentence.
+3. A short newsletter blurb (80–120 words): A warm, direct summary introducing the topic and inviting the reader to reply with their own experience.
+
+Here is the source text:
+[PASTE YOUR ARTICLE OR TRANSCRIPT HERE]
+[END PROMPT]
+
+--------------------------------------------------------------------------------
+02. EMAIL TRIAGE & ACTION EXTRACTION
+--------------------------------------------------------------------------------
+[START PROMPT]
+Read the following email thread(s) and extract a structured triage summary for me. Do not invent details that are not in the text. Present the output in four sections:
+
+1. URGENT REPLIES NEEDED TODAY: Who is waiting on a direct answer before they can move forward, and what exact question are they asking?
+2. TASKS ASSIGNED TO ME: Specific deliverables or actions I need to complete, including any mentioned deadlines.
+3. WAITING ON OTHERS: Items where someone else promised to send something to me.
+4. FYI ONLY: Key facts or updates I should know that require no action.
+
+Email text:
+[PASTE EMAIL THREADS HERE]
+[END PROMPT]
+
+--------------------------------------------------------------------------------
+03. MEETING NOTES TO STRUCTURED TASKS
+--------------------------------------------------------------------------------
+[START PROMPT]
+Turn the following rough meeting notes/transcript into a clean, professional summary and task list. Use clear, plain English.
+
+Output two sections:
+SECTION 1: Internal Task List (for my task manager)
+- Format each item as: [Owner] - [Action Verb + Specific Task] - [Deadline if mentioned, otherwise write "TBD"]
+
+SECTION 2: Client Follow-Up Email Draft
+- A polite, concise email thanking them for their time, summarizing the 3–5 main decisions we agreed on, listing what I will deliver next (with dates), and listing what I need from them to proceed.
+
+Raw notes:
+[PASTE ROUGH NOTES OR TRANSCRIPT HERE]
+[END PROMPT]
+
+--------------------------------------------------------------------------------
+04. RESEARCH SUMMARISING & FACT EXTRACTION
+--------------------------------------------------------------------------------
+[START PROMPT]
+Analyze the source text provided below and extract only the facts, data points, and core arguments present in the text. Do not bring in outside assumptions or make up statistics.
+
+Provide:
+1. Executive Summary: 3 sentences explaining the main conclusion of this document.
+2. Key Data & Numbers: A bulleted list of every specific statistic, percentage, date, or dollar figure mentioned, with a 1-sentence explanation of its context.
+3. Core Arguments: The top 3 claims the author makes and the evidence they use to support each claim.
+4. Limitations / Missing Info: Anything the author explicitly states they did not test, or obvious gaps in the argument.
+
+Source text:
+[PASTE RESEARCH TEXT HERE]
+[END PROMPT]
+
+--------------------------------------------------------------------------------
+05. SOCIAL MEDIA BATCH SCHEDULING PLAN
+--------------------------------------------------------------------------------
+[START PROMPT]
+I run a [INSERT YOUR BUSINESS TYPE].
+My target clients are [INSERT TARGET AUDIENCE].
+The main service I want to highlight this month is [INSERT SERVICE].
+Three questions or problems my clients recently brought up are:
+1. [INSERT QUESTION/PROBLEM 1]
+2. [INSERT QUESTION/PROBLEM 2]
+3. [INSERT QUESTION/PROBLEM 3]
+
+Create a 5-day social media batch (Monday to Friday) of complete, ready-to-edit posts (120–180 words each):
+- Monday: Educational post answering Question 1 with a practical checklist.
+- Tuesday: Behind-the-scenes/process post addressing Question 2.
+- Wednesday: Common mistake post addressing Question 3 and how to fix it.
+- Thursday: Soft case-study/example post showing how my service solves a day-to-day headache (no exaggerated claims).
+- Friday: Short discussion starter asking peers/clients how they handle a specific workflow challenge.
+
+Use plain, grounded language. No emojis at the start of every line, and no hashtags.
+[END PROMPT]
+
+--------------------------------------------------------------------------------
+06. CUSTOMER & CLIENT REPLY DRAFTING (DIFFICULT SCENARIOS)
+--------------------------------------------------------------------------------
+[START PROMPT]
+A client/customer sent me the following message:
+"[PASTE CLIENT MESSAGE]"
+
+Here are the actual facts of the situation and the boundary I need to hold:
+- [INSERT FACT 1]
+- [INSERT FACT 2]
+
+Draft two versions of an email reply (under 150 words each):
+Option A (Warm & Collaborative): Assumes positive intent, gently reminds them of our agreement, and offers the paid add-on or an alternative clearly.
+Option B (Brief & Matter-of-Fact): Direct, polite, zero fluff, states the current status and the two choices to move forward.
+
+Do not apologize if I did nothing wrong. Instead of saying "Sorry for the inconvenience," use appreciative phrasing like "Thanks for sending these notes over."
+[END PROMPT]
+
+--------------------------------------------------------------------------------
+07. POLITE & PROGRESSIVE INVOICE CHASING
+--------------------------------------------------------------------------------
+[START PROMPT]
+Generate a sequence of 3 progressive invoice follow-up emails for the following invoice:
+- Client First Name: [NAME]
+- Invoice Number: [INVOICE #]
+- Amount Due: [AMOUNT]
+- Original Due Date: [DUE DATE]
+- Project/Service Name: [PROJECT]
+- Payment Link or Method: [PAYMENT DETAILS]
+
+Write:
+1. Email 1 (3 Days Overdue - Gentle Nudge): Short, friendly, assumes it just slipped through the cracks, re-attaches/links the invoice details.
+2. Email 2 (10 Days Overdue - Direct Check-in): Polite but direct. Asks if accounts payable needs any additional information to process the payment this week, and asks for an expected payment date.
+3. Email 3 (21 Days Overdue - Firm Notice): Professional, clear statement that ongoing work/deliverables will pause on [INSERT DATE] until the balance is cleared, and requests immediate confirmation of payment status.
+
+Keep each email under 110 words.
+[END PROMPT]
+
+--------------------------------------------------------------------------------
+08. INBOUND LEAD QUALIFICATION & DISCOVERY PREP
+--------------------------------------------------------------------------------
+[START PROMPT]
+A potential client sent me this inquiry:
+"[PASTE INQUIRY MESSAGE]"
+
+My business parameters:
+- My services: [INSERT SERVICES]
+- My typical starting price / minimum engagement: [INSERT MINIMUM PRICE]
+- My earliest availability to start: [INSERT START DATE]
+
+Please provide:
+1. Red/Green Flag Analysis: 3 bullet points noting what looks promising and what vital information is missing from their inquiry.
+2. Pre-Qualifying Email Reply (under 140 words): A warm, professional response that briefly acknowledges their goal, states my typical starting price range and availability upfront, and asks 3 specific clarifying questions they can answer via email before we book a call.
+[END PROMPT]
+
+--------------------------------------------------------------------------------
+09. REALISTIC WEEKLY CAPACITY & PRIORITY PLANNING
+--------------------------------------------------------------------------------
+[START PROMPT]
+Help me build a realistic weekly schedule based on actual capacity. Do not pack every hour—leave a 20% buffer for unexpected emails and admin.
+
+My constraints this week:
+- Total working hours available (Mon–Fri): [INSERT HOURS]
+- Hours already booked in meetings/calls: [INSERT MEETING HOURS]
+- Hard deadlines this week: [LIST DEADLINES]
+
+Here is my brain-dump of everything I think I need to do, with my rough time estimate for each:
+[PASTE BRAIN DUMP OF TASKS]
+
+Please output:
+1. Reality Check: Calculate my net available hours (after meetings and a 20% admin buffer) vs. the total hours of my task list. Tell me plainly if I am overbooked.
+2. Must-Do This Week: The tasks that fit within my real capacity, grouped into a day-by-day plan (Monday to Friday) with no more than 2 major deep-work blocks per day.
+3. Defer / Drop List: Specific tasks from my brain-dump that I must push to next week or simplify so I actually finish my priority work.
+[END PROMPT]
+
+--------------------------------------------------------------------------------
+10. MESSY DIGITAL FILE & FOLDER ORGANISATION PLAN
+--------------------------------------------------------------------------------
+[START PROMPT]
+Below is a list of messy filenames currently sitting in my [Desktop / Downloads / Client Folder].
+My business type is: [INSERT BUSINESS TYPE].
+
+Please analyze these filenames and provide:
+1. A Simple Folder Tree: A clean, maximum 2-level folder hierarchy (no more than 5–7 main folders) designed for how I actually work.
+2. File Mapping Table: A Markdown table with three columns:
+   - Column 1: Current Filename
+   - Column 2: Recommended New Filename (using YYYY-MM-DD_ClientOrCategory_ClearDescription.ext format)
+   - Column 3: Destination Folder from the tree above
+3. Archive/Delete Candidates: Flag any obvious duplicates, temporary installers (.dmg, .exe, .zip), or outdated drafts I should verify and delete.
+
+List of filenames:
+[PASTE FILENAMES HERE]
+[END PROMPT]
