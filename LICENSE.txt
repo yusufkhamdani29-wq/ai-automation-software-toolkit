@@ -1,0 +1,40 @@
+AI AUTOMATION & SOFTWARE TOOLKIT — LICENCE
+
+Copyright (c) 2026 Sobat Desain. All rights reserved.
+
+WHAT YOU MAY DO
+- Use all files in this toolkit for your own business and for client
+  projects, including commercial use.
+- Modify the templates, prompts, and scripts to fit your own work.
+- Use the output of the tools (cleaned CSVs, generated invoices, organised
+  folders, drafted text) without restriction.
+
+WHAT YOU MAY NOT DO
+- Resell, redistribute, share, or give away the toolkit files as-is, in
+  whole or in part, or include them in another product for sale.
+- Claim the files, prompts, or scripts as your own work.
+- Remove or alter this licence file.
+
+SCRIPTS AND CODE
+- The Python scripts and Google Apps Script snippets are provided
+  "as-is", without warranty of any kind. They were tested on the sample
+  data included with this toolkit before shipping. Always run the
+  renamer and folder organiser in dry-run mode first, and always keep
+  backups of important files before running any automation.
+- The scripts do not collect, transmit, or store your data. The Google
+  Apps Script snippets run only inside your own Google Sheets.
+- The AI workflow prompts run in the AI chat tool of your choice. Never
+  paste passwords, bank details, or private customer data into an AI
+  chat tool.
+
+NO GUARANTEE
+- Nothing in this toolkit guarantees income, sales, time saved, or any
+  business result. Time-saved notes are honest estimates for typical
+  small tasks, not measured results.
+- Market figures cited in the guide and README come from the Gumroad
+  Market Data 2026 dataset and are estimates, not verified sales.
+
+REFUNDS
+- Digital files cannot be returned. If a file is damaged or missing,
+  contact the seller through Gumroad and a replacement file will be
+  provided.
