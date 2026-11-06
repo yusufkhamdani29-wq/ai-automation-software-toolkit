@@ -1,0 +1,5 @@
+Invoice,Client,Amount,Status,Issued,Due
+INV-2026-001,Acme Cafe,11.00,paid,2026-11-06,2026-11-20
+INV-2026-002,Budi Studio,49.00,paid,2026-11-07,2026-11-21
+INV-2026-003,Citra Bakery,6.50,open,2026-11-07,2026-11-21
+INV-2026-004,Dewi Crafts,25.00,open,2026-11-08,2026-11-22
